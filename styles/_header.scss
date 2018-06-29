@@ -1,0 +1,27 @@
+header {
+  height: 350px;
+
+  border: 1px solid black;
+  @extend .flex-container;
+  align-content: space-between;
+  flex-direction: column;
+
+  .header-logo {
+    height: 280px;
+  }
+
+  .header-line {
+    border: 3px solid;
+    //width: 100%
+  }
+
+  .header-menu{
+    height: 100px
+  }
+
+  .header-text {
+    font-family: 'Proxima Nova Bold';
+    font-size: 24px;
+  }
+
+}

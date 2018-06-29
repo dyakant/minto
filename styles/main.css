@@ -1,0 +1,52 @@
+body {
+  background: url("../Minto.png") top center no-repeat;
+  margin: 0 auto;
+  height: 1110px;
+  width: 730px;
+}
+
+.flex-container, header {
+  display: flex;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Bold';
+  src: url("../fonts/Sofia-Bold.eot");
+  src: url("../fonts/Sofia-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Sofia-Bold.woff") format("woff"), url("../fonts/Sofia-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  height: 350px;
+  border: 1px solid black;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+header .header-logo {
+  height: 280px;
+}
+
+header .header-line {
+  border: 3px solid;
+}
+
+header .header-menu {
+  height: 100px;
+}
+
+header .header-text {
+  font-family: 'Proxima Nova Bold';
+  font-size: 24px;
+}
+/*# sourceMappingURL=main.css.map */
