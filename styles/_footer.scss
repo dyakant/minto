@@ -1,0 +1,26 @@
+footer {
+  border-bottom: 3px solid $line-color;
+  width: 100%;
+  height: $footer-height;
+  background-color: $footer-color;
+  font-size:10px;
+  color: $font-color;
+    
+  .footer-content {
+    height: 100%;
+    @extend .flex-container;
+    justify-content: space-between;
+    width: $content-width;
+    margin: 0 auto;
+
+    .social {
+
+      button {
+        font-size:13px;
+        border: none;
+        background-color: transparent;
+        color: $font-color;
+      }
+    }
+  }
+}
